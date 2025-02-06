@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProdottiVetrinaComponent } from './components/prodotti-vetrina/prodotti-vetrina.component';
+import { ProdottoPreviewComponent } from './components/prodotto-preview/prodotto-preview.component';
+import { HeaderComponent } from './components/header/header.component';
+import { RatingComponent } from './components/rating/rating.component';
+import { CarrelloComponent } from './components/carrello/carrello.component';
+import { CarrelloMiniComponent } from './components/carrello-mini/carrello-mini.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProdottiVetrinaComponent,
+    ProdottoPreviewComponent,
+    HeaderComponent,
+    RatingComponent,
+    CarrelloComponent,
+    CarrelloMiniComponent
   ],
   imports: [
     BrowserModule,
